@@ -67,3 +67,9 @@ Once we are done with the above processing of the original dataset, we run the d
 
 ### **Results of classification methods**
  
+ **Gaussian Naïve Bayes**
+ Dataset with 19 features
+   ![](images/2.png)
+Dataset with 12 features
+   ![](images/3.png)
+
