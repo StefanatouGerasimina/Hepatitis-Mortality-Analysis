@@ -115,8 +115,29 @@ Same, there is increase in accuracy of 11 % with accuracy improving from 87.8% f
 
 At first we had a maximum mean Accuracy for k = 4, with an efficiency of 85.63%, while in the second case we observe that whatever k fold value we use, its performance will have 100 % accuracy.
 
+   
 ## Comparison of Classification Methods
 
 So comparing the highest success rates for each method, we have:
 
+   ![](images/8.png)
+   
+   Also, we can  find the Sensitivity (Sensitivity/recall) for each macro scale model. The Macro-average method calculates the metrics independently for each class and takes the average of the results. It is used to evaluate models against micro-average, due to the small volume in our data set :
 
+   ![](images/9.png)
+
+By training our two different datasets for each categorization model, we notice that almost all models perform better when we apply Feature Selection.
+But in the case of SVM we see that it has the worst performance in both accuracy and sensitivity,and this is due as we mentioned earlier to the regularization methods witch it applies. The best-performing model is the Naïve Bayes Classifier, as it delivers the highest accuracy and sensitivity rates for both datasets. We also note that Logistic Regression has equally good accuracy results, and by comparing the sensitivity we find that it is a reliable method for both dataset,which is not the case with the decision Trees in our first dataset.
+   
+ ## **IV.   In conclusion**
+ 
+ From the study of the data concerning mortality of patients suffering from hepatitis, and their training with classification models Naïve Bayes, Logistic Depression, Support Vector Machine and Decision Trees and their evaluation based on average accuracy and sensitivity, the following results are obtained: We note that the best method for this problem is the application of the Naïve bayes model, which when training the balanced data set gives an accuracy of 89.41% with a sensitivity of 91.3% for 16 folds .While when training the data set with the 12 selected characteristics (with the help of case test x^2 applied through Select K Best) gives accuracy and sensitivity to 100% with only 3 folds. Logistic Regression and Decision Trees have similar performance. Finally, we note that feature selection does not contribute to the improvement of our model when applying Support Vector Machines, as it is a feature-independent algorithm.
+ 
+ ## **Bibliography, sources**
+[1]	Will Koehrsen, A Feature Selection Tool for Machine Learning in Python, towards data science, https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0 
+[2]	Stack Exchange, https://stackexchange.com/ 
+[3]	Shivam Kohli, Understanding a Classification Report For Your Machine Learning Model, https://medium.com/@kohlishivam5522/understanding-a-classification-report-for-your-machine-learning-model-88815e2ce397, 
+[4]	Salma Ghoneim, Accuracy, Recall, Precision, F-Score & Specificity, which to optimize on?, https://towardsdatascience.com/accuracy-recall-precision-f-score-specificity-which-to-optimize-on-867d3f11124 
+[5]	Adi Bronshtein, Train/Test Splitand Cross Validation in Python, https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6 
+[6]	Peijin Chen, Machine Learning Mini-Project 2: Hepatitis C Prediction from Blood Samples, Artificial Intelligence in plain English , https://medium.com/ai-in-plain-english/machine-learning-mini-project-2-hepatitis-c-prediction-from-blood-samples-c5e1d14d359a
+[7]	Manfye Goh, Predicting Hepatitis Patient Survivability(UCI Dataset), towards data science, https://towardsdatascience.com/predicting-hepatitis-patient-survivability-uci-dataset-71982aa6775d,
