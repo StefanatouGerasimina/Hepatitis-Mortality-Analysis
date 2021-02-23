@@ -103,3 +103,14 @@ Dataset with 12 features
 
 Same, there is increase in accuracy of 11 % with accuracy improving from 87.8% for K=5, to 98.57% for K=7.
 
+**Decission Trees**
+ 
+ Dataset with 19 features 
+ 
+   ![](images/6.png)
+   
+Dataset with 12 features
+
+   ![](images/7.png)
+
+At first we had a maximum mean Accuracy for k = 4, with an efficiency of 85.63%, while in the second case we observe that whatever k fold value we use, its performance will have 100 % accuracy.
