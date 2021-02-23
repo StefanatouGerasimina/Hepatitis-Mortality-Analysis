@@ -33,5 +33,24 @@ By analyzing the distribution of our data, we notice an unequal distribution bet
 
 This "disparity" between classes can lead to lower performance of categorization models specific to the minority class. Thus, we use the Oversampling method which randomly selects samples from the minority class and adds them to the original data set, resulting in 116 samples of patients class "Live" and 116 class "Die", achieving the perfect balance.
 The 19 features are:
-1. age
+
+1.  AGE
+2.  SEX
+3.  STEROID
+4.  ANTIVIRALS
+5.  FATIGUE
+6.  MALAISE
+7.  ANOREXIA
+8.  LIVER BIG
+9.  LIVER FIRM
+10.  SPLEEN PALPABLE
+11.  SPIDERS
+12.  ASCITES
+13.  VARICES
+14.  BILIRUBIN
+15.  ALK PHOSPHATE
+16.  SGOT
+17.  ALBUMIN
+18.  PROTIME
+19.  HISTOLOGY
 
