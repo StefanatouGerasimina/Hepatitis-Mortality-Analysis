@@ -20,10 +20,10 @@ In order to precess our data we need to bring it from a csv into a Dataframe for
 
 ## **B. Classification Techniques**
 
-- **Gaussian Naïve Bayes**
-- **Support Vector Machines**
-- **Logistic Regression**
-- **Decission Trees**
+- **Gaussian Naïve Bayes** (For reducing computional complexity, increasing speed and minimizing ranking error)
+- **Support Vector Machines** (For clasifiaction and regression problems)
+- **Logistic Regression** (with maximum likelihood estimation for minimizing the ranking error)
+- **Decission Trees** (CA.R.T.)
 
 
 
