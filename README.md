@@ -33,5 +33,5 @@ By analyzing the distribution of our data, we notice an unequal distribution bet
 
 This "disparity" between classes can lead to lower performance of categorization models specific to the minority class. Thus, we use the Oversampling method which randomly selects samples from the minority class and adds them to the original data set, resulting in 116 samples of patients class "Live" and 116 class "Die", achieving the perfect balance.
 The 19 features are:
--- age
+1. age
 
