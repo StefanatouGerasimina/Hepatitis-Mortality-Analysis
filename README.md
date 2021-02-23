@@ -2,7 +2,7 @@
 
 Predicting Hepatitis Mortality from the uci dataset (https://archive.ics.uci.edu/ml/datasets/hepatitis).
 
-You can check out my code on Hepatitis.ipynb
+You can check out my code on Hepatitis-Mortality-Analysis.ipynb
 
 ## **Description**
 
