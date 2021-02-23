@@ -67,7 +67,7 @@ Once we are done with the above processing of the original dataset, we run the d
 
 ### **Results of classification methods**
  
- **Gaussian Naïve Bayes**
+#### **Gaussian Naïve Bayes**
  
  Dataset with 19 features 
  
@@ -103,7 +103,7 @@ Dataset with 12 features
 
 Same, there is increase in accuracy of 11 % with accuracy improving from 87.8% for K=5, to 98.57% for K=7.
 
-**Decission Trees**
+#### **Decission Trees**
  
  Dataset with 19 features 
  
