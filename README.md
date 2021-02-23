@@ -65,5 +65,5 @@ Best 12 features (with Select K Best)Q
 
 Once we are done with the above processing of the original dataset, we run the different sort models to see and evaluate the results:
 
-**Results of classification methods**
+### **Results of classification methods**
  
