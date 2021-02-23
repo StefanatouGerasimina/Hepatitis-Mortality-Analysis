@@ -67,37 +67,37 @@ Once we are done with the above processing of the original dataset, we run the d
 
 ### **Results of classification methods**
  
-#### **Gaussian Naïve Bayes**
+### **Gaussian Naïve Bayes**
  
- Dataset with 19 features 
+ **Dataset with 19 features** 
  
    ![](images/01.png)
    
-Dataset with 12 features
+**Dataset with 12 features**
 
    ![](images/02.png)
    
 in the initial case the maximum efficiency is noted for k=16, with the classification accuracy reaching 89.41 % while in the second case, where the 12 "best" characteristics are selected, from the fold size equals 3 and then, the accuracy is 100%.
 
- **Support Vector Machines**
+### **Support Vector Machines**
  
- Dataset with 19 features 
+**Dataset with 19 features** 
  
    ![](images/2.png)
    
-Dataset with 12 features
+**Dataset with 12 features**
 
    ![](images/3.png)
    
 Similarly, the model shows better performance for the first dataset for k = 14 with Mean Accuracy 67.77 %, while for the second dataset, for k=13 with Mean Accuracy 66.1% we share a 1-2% drop in models accuracy. This is caused due to the fact that SVM is an algorithm independent of the dimension of the features space, while it uses the normalization method to avoid overfitting. Thus, with the reduction of characteristics, the performance of the classification algorithm decreases. (75% for K=11 ==>  73% for K=15).
 
-**Logistic Regression**
+### **Logistic Regression**
  
- Dataset with 19 features 
+ **Dataset with 19 features** 
  
    ![](images/4.png)
    
-Dataset with 12 features
+**Dataset with 12 features**
 
    ![](images/5.png)
 
@@ -105,11 +105,11 @@ Same, there is increase in accuracy of 11 % with accuracy improving from 87.8% f
 
 #### **Decission Trees**
  
- Dataset with 19 features 
+ **Dataset with 19 features** 
  
    ![](images/6.png)
    
-Dataset with 12 features
+**Dataset with 12 features**
 
    ![](images/7.png)
 
