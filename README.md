@@ -59,4 +59,8 @@ Given the small size of the given set, we choose the method of cross validation 
 
 ## **III.  Results**
 
-Best 12 features (with Select K Best)
+Best 12 features (with Select K Best)Q
+
+ ![](images/1.png)
+ 
+ 
