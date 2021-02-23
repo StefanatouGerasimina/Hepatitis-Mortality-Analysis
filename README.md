@@ -28,4 +28,5 @@ In order to precess our data we need to bring it from a csv into a Dataframe for
 ### **C.  Description of the most Effective Method**
 Initially the UCI dataset contains samples from 155 patients suffering from hepatitis and categorizes them into two classes: "Live" and "Die",by considering its 19 features.
 By analyzing the distribution of our data, we notice an unequal distribution between the two classes with patients in the "Live" category touching 79 % .
+
  ![](images/00.png)
