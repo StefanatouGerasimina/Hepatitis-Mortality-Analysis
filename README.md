@@ -21,5 +21,9 @@ In order to precess our data we need to bring it from a csv into a Dataframe for
 ## **B. Classification Techniques**
 
 **Gaussian Naïve Bayes**
+**Support Vector Machines**
+**Logistic Regression**
+**Decission Trees**
+
 
 
