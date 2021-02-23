@@ -55,4 +55,6 @@ The 19 features are:
 19.  HISTOLOGY
 
 In order to  increase the accuracy and reduce the probability of error, we used the **feature selection** method. With Select K Best technique, we extract 12 features that contribute most to the categorization of patients as "Live" or " Die " and with The X^2 hypothesis test, and create a second dataset.
-Given the small size of the given set, we choose the method of cross validation for our models evaluation, trying to find the best and most impartial classifier. So, we divide the whole dataset into k fields (depending on our model each time), train k - 1 fields and use the k filed to "validate" its performance. Thus, we compare their performance for both of our datasets. 
+Given the small size of the given set, we choose the method of cross validation for our models evaluation, trying to find the best and most impartial classifier. So, we divide the whole dataset into k fields (depending on our model each time), train k - 1 fields and use the k filed to "validate" its performance. Thus, we compare their performance for both of our datasets. (The one with only oversampling, and the second with both oversampling and feature selection).
+
+## **III.  RESULTS**
