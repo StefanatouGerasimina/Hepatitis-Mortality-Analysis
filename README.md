@@ -114,3 +114,9 @@ Same, there is increase in accuracy of 11 % with accuracy improving from 87.8% f
    ![](images/7.png)
 
 At first we had a maximum mean Accuracy for k = 4, with an efficiency of 85.63%, while in the second case we observe that whatever k fold value we use, its performance will have 100 % accuracy.
+
+## Comparison of Classification Methods
+
+So comparing the highest success rates for each method, we have:
+
+
