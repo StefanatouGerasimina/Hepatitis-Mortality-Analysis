@@ -14,17 +14,17 @@ After we have entered the data we begin the process of analysis and processing. 
 
 To evaluate our models, we used cross validation, which is a reliable method of evaluating the classification as it divides the data into K parts using each time k-1 for training the model and k part for its validation. Classification report was selected as an output, as it gives us information on the performance of the model in 3 different metric (macro, micro, weighted ). For the evaluation and comparison of classification models, we focus mainly on accuracy and sensitivity. While for selecting the best value for k folds, we focus on Cross Validation Accuracy Score.
 
-## **A.  Data**
+### **A.  Data**
 
 In order to precess our data we need to bring it from a csv into a Dataframe format.We continue by replacing the "?" values with "0" and define the type of our datatset's features.
 
-## **B. Classification Techniques**
+### **B. Classification Techniques**
 
 - **Gaussian Naïve Bayes** (For reducing computional complexity, increasing speed and minimizing ranking error)
 - **Support Vector Machines** (For clasifiaction and regression problems)
 - **Logistic Regression** (with maximum likelihood estimation for minimizing the ranking error)
 - **Decission Trees** (CA.R.T.)
 
-## **C.  Description of the most Effective Method**
+### **C.  Description of the most Effective Method**
 Initially the UCI dataset contains samples from 155 patients suffering from hepatitis and categorizes them into two classes: "Live" and "Die",by considering its 19 features.
 By analyzing the distribution of our data, we notice an unequal distribution between the two classes with patients in the "Live" category touching 79 % .
